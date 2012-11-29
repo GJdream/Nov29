@@ -16,6 +16,15 @@
 		CE043479166598CE003CBAD2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE043478166598CE003CBAD2 /* Default.png */; };
 		CE04347B166598CE003CBAD2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04347A166598CE003CBAD2 /* Default@2x.png */; };
 		CE04347D166598CE003CBAD2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04347C166598CE003CBAD2 /* Default-568h@2x.png */; };
+		CE04348516659914003CBAD2 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = CE04348416659914003CBAD2 /* View.m */; };
+		CE043489166599F9003CBAD2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE043488166599F9003CBAD2 /* AudioToolbox.framework */; };
+		CE04348F1665A1EB003CBAD2 /* jbtheme1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE04348E1665A1EB003CBAD2 /* jbtheme1.mp3 */; };
+		CE0434911665A3A6003CBAD2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0434901665A3A6003CBAD2 /* MediaPlayer.framework */; };
+		CE0434931666E410003CBAD2 /* legospy.MOV in Resources */ = {isa = PBXBuildFile; fileRef = CE0434921666E410003CBAD2 /* legospy.MOV */; };
+		CE04349D1666EC7C003CBAD2 /* SpyView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE04349C1666EC7C003CBAD2 /* SpyView.m */; };
+		CE04FCDC166700E900E8D452 /* whiteSpy.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE04FCDB166700E900E8D452 /* whiteSpy.gif */; };
+		CEF3870C16670F7100A46D08 /* blackSpy.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEF3870B16670F7100A46D08 /* blackSpy.gif */; };
+		CEF387161667166200A46D08 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF387151667166200A46D08 /* ImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,18 @@
 		CE043478166598CE003CBAD2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CE04347A166598CE003CBAD2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CE04347C166598CE003CBAD2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE04348316659914003CBAD2 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		CE04348416659914003CBAD2 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		CE043488166599F9003CBAD2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE04348E1665A1EB003CBAD2 /* jbtheme1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jbtheme1.mp3; sourceTree = "<group>"; };
+		CE0434901665A3A6003CBAD2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CE0434921666E410003CBAD2 /* legospy.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = legospy.MOV; sourceTree = "<group>"; };
+		CE04349B1666EC7C003CBAD2 /* SpyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpyView.h; sourceTree = "<group>"; };
+		CE04349C1666EC7C003CBAD2 /* SpyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpyView.m; sourceTree = "<group>"; };
+		CE04FCDB166700E900E8D452 /* whiteSpy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whiteSpy.gif; sourceTree = "<group>"; };
+		CEF3870B16670F7100A46D08 /* blackSpy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = blackSpy.gif; sourceTree = "<group>"; };
+		CEF387141667166200A46D08 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		CEF387151667166200A46D08 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0434911665A3A6003CBAD2 /* MediaPlayer.framework in Frameworks */,
+				CE043489166599F9003CBAD2 /* AudioToolbox.framework in Frameworks */,
 				CE043467166598CE003CBAD2 /* UIKit.framework in Frameworks */,
 				CE043469166598CE003CBAD2 /* Foundation.framework in Frameworks */,
 				CE04346B166598CE003CBAD2 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +91,8 @@
 		CE043465166598CE003CBAD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE0434901665A3A6003CBAD2 /* MediaPlayer.framework */,
+				CE043488166599F9003CBAD2 /* AudioToolbox.framework */,
 				CE043466166598CE003CBAD2 /* UIKit.framework */,
 				CE043468166598CE003CBAD2 /* Foundation.framework */,
 				CE04346A166598CE003CBAD2 /* CoreGraphics.framework */,
@@ -80,6 +105,12 @@
 			children = (
 				CE043475166598CE003CBAD2 /* Nov29AppDelegate.h */,
 				CE043476166598CE003CBAD2 /* Nov29AppDelegate.m */,
+				CE04348316659914003CBAD2 /* View.h */,
+				CE04348416659914003CBAD2 /* View.m */,
+				CE04349B1666EC7C003CBAD2 /* SpyView.h */,
+				CE04349C1666EC7C003CBAD2 /* SpyView.m */,
+				CEF387141667166200A46D08 /* ImageView.h */,
+				CEF387151667166200A46D08 /* ImageView.m */,
 				CE04346D166598CE003CBAD2 /* Supporting Files */,
 			);
 			path = Nov29;
@@ -88,6 +119,10 @@
 		CE04346D166598CE003CBAD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEF3870B16670F7100A46D08 /* blackSpy.gif */,
+				CE04FCDB166700E900E8D452 /* whiteSpy.gif */,
+				CE0434921666E410003CBAD2 /* legospy.MOV */,
+				CE04348E1665A1EB003CBAD2 /* jbtheme1.mp3 */,
 				CE04346E166598CE003CBAD2 /* Nov29-Info.plist */,
 				CE04346F166598CE003CBAD2 /* InfoPlist.strings */,
 				CE043472166598CE003CBAD2 /* main.m */,
@@ -155,6 +190,10 @@
 				CE043479166598CE003CBAD2 /* Default.png in Resources */,
 				CE04347B166598CE003CBAD2 /* Default@2x.png in Resources */,
 				CE04347D166598CE003CBAD2 /* Default-568h@2x.png in Resources */,
+				CE04348F1665A1EB003CBAD2 /* jbtheme1.mp3 in Resources */,
+				CE0434931666E410003CBAD2 /* legospy.MOV in Resources */,
+				CE04FCDC166700E900E8D452 /* whiteSpy.gif in Resources */,
+				CEF3870C16670F7100A46D08 /* blackSpy.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +206,9 @@
 			files = (
 				CE043473166598CE003CBAD2 /* main.m in Sources */,
 				CE043477166598CE003CBAD2 /* Nov29AppDelegate.m in Sources */,
+				CE04348516659914003CBAD2 /* View.m in Sources */,
+				CE04349D1666EC7C003CBAD2 /* SpyView.m in Sources */,
+				CEF387161667166200A46D08 /* ImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +317,7 @@
 				CE043482166598CE003CBAD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
