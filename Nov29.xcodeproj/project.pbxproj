@@ -25,6 +25,8 @@
 		CE04FCDC166700E900E8D452 /* whiteSpy.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE04FCDB166700E900E8D452 /* whiteSpy.gif */; };
 		CEF3870C16670F7100A46D08 /* blackSpy.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEF3870B16670F7100A46D08 /* blackSpy.gif */; };
 		CEF387161667166200A46D08 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF387151667166200A46D08 /* ImageView.m */; };
+		CEF3871C1667EE6600A46D08 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF3871B1667EE6600A46D08 /* icon@2x.png */; };
+		CEF387211667EEDD00A46D08 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF387201667EEDD00A46D08 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		CEF3870B16670F7100A46D08 /* blackSpy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = blackSpy.gif; sourceTree = "<group>"; };
 		CEF387141667166200A46D08 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
 		CEF387151667166200A46D08 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		CEF3871B1667EE6600A46D08 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CEF387201667EEDD00A46D08 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 		CE04346D166598CE003CBAD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEF387201667EEDD00A46D08 /* icon.png */,
+				CEF3871B1667EE6600A46D08 /* icon@2x.png */,
 				CEF3870B16670F7100A46D08 /* blackSpy.gif */,
 				CE04FCDB166700E900E8D452 /* whiteSpy.gif */,
 				CE0434921666E410003CBAD2 /* legospy.MOV */,
@@ -194,6 +200,8 @@
 				CE0434931666E410003CBAD2 /* legospy.MOV in Resources */,
 				CE04FCDC166700E900E8D452 /* whiteSpy.gif in Resources */,
 				CEF3870C16670F7100A46D08 /* blackSpy.gif in Resources */,
+				CEF3871C1667EE6600A46D08 /* icon@2x.png in Resources */,
+				CEF387211667EEDD00A46D08 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
